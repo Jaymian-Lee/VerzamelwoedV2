@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerzamelwoedeV2", "VerzamelwoedeV2.csproj", "{4B743EF9-6655-4550-88A3-49D2B4424816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerzamelwoedeV2API", "..\VerzamelwoedeV2API\VerzamelwoedeV2API.csproj", "{EF1BEDD1-06EA-4A4F-9706-DA226F48504F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B743EF9-6655-4550-88A3-49D2B4424816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B743EF9-6655-4550-88A3-49D2B4424816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B743EF9-6655-4550-88A3-49D2B4424816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B743EF9-6655-4550-88A3-49D2B4424816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1BEDD1-06EA-4A4F-9706-DA226F48504F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1BEDD1-06EA-4A4F-9706-DA226F48504F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1BEDD1-06EA-4A4F-9706-DA226F48504F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1BEDD1-06EA-4A4F-9706-DA226F48504F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74E98997-90BE-43FD-8874-1A473EECAC39}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<VerzamelwoedeV2.Models.Collection>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Collections</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.Name)
+                <!-- @Html.DisplayFor(modelItem => item.Category.CategoryId) -->
+            </td>
+
+            <!--The id to redirect to the specific category-->
+            @{
+                int CatId = item.Category.CategoryId;
+            }
+
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CollectionId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CollectionId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CollectionId">Delete</a> |
+                    <a asp-controller="Categories" asp-action="Details" asp-route-id="@CatId">Details Category</a> |
+                    <a asp-controller="Categories" asp-action="Edit" asp-route-id="@CatId">Edit Category</a>
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\VerzamelwoedeV2API.props" />
+</Project>
