@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1008</x>
+      <y>207</y>
+      <w>306</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+:Database Server</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>162</x>
+      <y>207</y>
+      <w>306</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+:IDE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>585</x>
+      <y>207</y>
+      <w>306</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+:Workstation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>666</x>
+      <y>279</y>
+      <w>135</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+&lt;&lt;Component&gt;&gt;
+Frontend interface</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1026</x>
+      <y>261</y>
+      <w>270</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;&gt;
+:RDBMS
+
+Database</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>900</x>
+      <y>333</y>
+      <w>99</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Protocol&gt;&gt;
+TCP/IP</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>882</x>
+      <y>306</y>
+      <w>144</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>198</x>
+      <y>297</y>
+      <w>225</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;
+:IDE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>477</x>
+      <y>333</y>
+      <w>99</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Protocol&gt;&gt;
+Local</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>459</x>
+      <y>306</y>
+      <w>144</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>666</x>
+      <y>351</y>
+      <w>135</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+&lt;&lt;Component&gt;&gt;
+Backend interface</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
