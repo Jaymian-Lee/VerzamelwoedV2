@@ -98,7 +98,7 @@ To get started with the Verzamelwoede V2 Collection Management System:
 
 - **Clone the Repository**: Clone this GitHub repository to your local machine using the following command:
     ```
-    git clone https://github.com/YourUsername/VerzamelwoedeV2.git
+    git clone https://github.com/Jaymian-Lee/VerzamelwoedeV2.git
     ```
 
 - **Open the Project**: Open the project using your chosen development environment (Visual Studio or Visual Studio Code).
