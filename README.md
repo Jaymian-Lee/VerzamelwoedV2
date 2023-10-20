@@ -10,7 +10,7 @@ For avid collectors, managing and organizing collections is a delightful yet cha
 
 - Collection Management: Keep track of your collections efficiently and organize them by name, category, and other attributes.
 
-- Item Tracking: Record and describe individual items within your collections, including details like name, description, and value.
+- Item Tracking: Record and describe individual items within your collections, including details like name and description.
 
 - Category Sorting: Easily sort and categorize your collections based on your preferences.
 
