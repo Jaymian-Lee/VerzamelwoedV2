@@ -22,6 +22,8 @@ For avid collectors, managing and organizing collections is a delightful yet cha
 
 Here's an organized project structure for your Verzamelwoede V2 project:
 
+-**Caution!**: This MVC project was developed using a Code-First approach.
+
 - **Controllers**: Handle incoming HTTP requests and manage the application's logic.
     - `CollectionsController`: Manages operations related to collections.
     - `CategoriesController`: Handles category-related actions.
