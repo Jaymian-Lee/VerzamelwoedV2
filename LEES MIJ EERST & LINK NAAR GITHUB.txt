@@ -1,0 +1,12 @@
+----------------------------------------------------------------------	|
+
+Alle documentatie staat in de map "Documentatie"			|
+
+Alle code staat in de map "Verzamelwoede"				|
+
+Als de README niet werkt dan kan deze bekeken worden op de GitHub	|
+(Alles staat ook op de github)						|
+
+Link GitHub: https://github.com/Jaymian-Lee/VerzamelwoedV2		|
+	
+----------------------------------------------------------------------	|
